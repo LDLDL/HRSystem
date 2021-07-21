@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WorkAtt</class>
+ <widget class="QWidget" name="WorkAtt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>995</width>
+    <height>643</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>30</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>931</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <widget class="QWidget" name="page">
+       <widget class="QTableView" name="tableView">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>931</width>
+          <height>341</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>400</y>
+     <width>931</width>
+     <height>143</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>提交修改</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>增加</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>删除</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QDateEdit" name="dateEdit_2">
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>编号查询</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="minimumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
